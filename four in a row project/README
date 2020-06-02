@@ -1,0 +1,48 @@
+moaadmahamid, 209549062
+
+Moaad Mahamid
+
+i discussed the exercise on my self.
+
+=============================
+=  README for ex12: Four in a Row =
+=============================
+==================
+=  Description:  =
+==================
+The game consists of a 6-row and 7-column board and is designed for
+two players (for example, red and black)Queue, the player must select
+a column to which he inserts a disc - the disc always lands at the bottom,
+at the top The stack of disks that have already been inserted into this
+column. The game ends when one of the players produces a sequence of four
+Discs in color, in any of the possible directions (vertical, horizontal or diagonal).
+
+we implement the game in the exercise in 4 stages:
+1. In the first stage we implement the file graphics in the game(GUI).
+2. In the second stage we implement the game file.
+3. In the third stage we implement the artificial intelligence (AI) file.
+4. In the fourth stage we implement the other files that responsible for additional things.
+
+and we divide our code to functions on this way.
+
+======================
+=  Special Comments  =
+======================
+we used in this exercize 5 files:
+1)game.py:
+in the first ,we implement the game.py file that responsible for the game setting
+and how to play agame with the correct rules as they asked for the exercize.
+
+2)gui.py:
+in this file we implement the graphics of the game and the bottons that in the game
+and the bootons that we need to use in the game.
+
+3)ai.py:
+in this file we implement the artificial intelligence and we implement that
+we can to play whith the computer and we add the right botton in the right
+place in the menu.
+
+4)four_in_a_row.py:
+in this file we add the main func that responsible for runnig the game and
+play it properly.
+
